@@ -1,6 +1,8 @@
-﻿using Discord;
+﻿using System;
+using Discord;
 using Discord.WebSocket;
 using GitHubStatusChecker.Helper;
+using Microsoft.Extensions.Configuration;
 using Octokit;
 
 
