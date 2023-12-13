@@ -12,14 +12,16 @@ GitHub Status Checker 是一個使用 .NET 6.0 開發的應用程式，主要功
 
 ## 如何使用
 
-1. 在 `appsettings.json` 中設定你的 Discord 伺服器和頻道 ID。
-2. 在 [`Program.cs`](Program.cs) 中設定你要追蹤的 GitHub 帳戶和儲存庫名稱。
-3. 執行 `dotnet run` 來啟動應用程式。
+1. 執行`setup.ps1`產生出 `appsettings.json`
+2. 在 `appsettings.json` 中設定你的 Discord 伺服器和頻道 ID。
+3. 在 [`Program.cs`](Program.cs) 中設定你要追蹤的 GitHub 帳戶和儲存庫名稱。
+4. 執行 `dotnet run` 來啟動應用程式。
 
 ## 如何建置
 
-1. 執行 `dotnet build` 來建置應用程式。
-2. 執行 `dotnet publish -c Release -o ./publish` 來發布應用程式。
+1. 執行`setup.ps1`產生出 `appsettings.json`
+2. 執行 `dotnet build` 來建置應用程式。
+3. 執行 `dotnet publish -c Release -o ./publish` 來發布應用程式。
 
 ## 依賴套件
 
